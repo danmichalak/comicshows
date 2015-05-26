@@ -7,10 +7,10 @@ comicSite.config(function($stateProvider, $urlRouterProvider){
 	.state('home', {
 		url: '/',
 		views: {
-			"header": {
+			"head": {
 				template: "home header"
 			},
-			"container": {
+			"nav": {
 				template: "home nav"
 			},
 			"body": {
@@ -21,10 +21,10 @@ comicSite.config(function($stateProvider, $urlRouterProvider){
 	.state('exhibitors', {
 		url: '/exhibitors',
 		views: {
-			"header": {
+			"head": {
 				template: "exhibitors header"
 			},
-			"container": {
+			"nav": {
 				template: "exhibitors nav"
 			},
 			"body": {
@@ -35,10 +35,10 @@ comicSite.config(function($stateProvider, $urlRouterProvider){
 	.state('join', {
 		url: '/join',
 		views: {
-			"header": {
+			"head": {
 				template: "join header"
 			},
-			"container": {
+			"nav": {
 				template: "join nav"
 			},
 			"body": {
@@ -49,10 +49,10 @@ comicSite.config(function($stateProvider, $urlRouterProvider){
 	.state('contact', {
 		url: '/contact',
 		views: {
-			"header": {
+			"head": {
 				template: "contact header"
 			},
-			"container": {
+			"nav": {
 				template: "contact nav"
 			},
 			"body": {
