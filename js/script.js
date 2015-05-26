@@ -11,7 +11,8 @@ comicSite.config(function($stateProvider, $urlRouterProvider){
 				template: "home header"
 			},
 			"nav": {
-				templateURL: "templates/nav.html"
+				//templateURL: "templates/nav.html"
+				template: "home nav"
 			},
 			"body": {
 				template: "home body"
@@ -25,7 +26,8 @@ comicSite.config(function($stateProvider, $urlRouterProvider){
 				template: "exhibitors header"
 			},
 			"nav": {
-				templateURL: "templates/nav.html"
+				//templateURL: "templates/nav.html"
+				template: "exhibitors nav"
 			},
 			"body": {
 				template: "exhibitors body"
@@ -39,7 +41,8 @@ comicSite.config(function($stateProvider, $urlRouterProvider){
 				template: "join header"
 			},
 			"nav": {
-				templateURL: "templates/nav.html"
+				//templateURL: "templates/nav.html"
+				template: "join nav"
 			},
 			"body": {
 				template: "join body"
@@ -53,7 +56,8 @@ comicSite.config(function($stateProvider, $urlRouterProvider){
 				template: "contact header"
 			},
 			"nav": {
-				templateURL: "templates/nav.html"
+				//templateURL: "templates/nav.html"
+				template: "contact nav"
 			},
 			"body": {
 				template: "contact body"
