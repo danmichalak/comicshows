@@ -6,7 +6,7 @@ comicSite.config(function($stateProvider, $urlRouterProvider){
 	$stateProvider
 	.state('home', {
 		url: '/',
-		views {
+		views: {
 			"header": {
 				template: "home header"
 			},
@@ -20,7 +20,7 @@ comicSite.config(function($stateProvider, $urlRouterProvider){
 	})
 	.state('exhibitors', {
 		url: '/exhibitors',
-		views {
+		views: {
 			"header": {
 				template: "exhibitors header"
 			},
@@ -34,7 +34,7 @@ comicSite.config(function($stateProvider, $urlRouterProvider){
 	})
 	.state('join', {
 		url: '/join',
-		views {
+		views: {
 			"header": {
 				template: "join header"
 			},
@@ -48,7 +48,7 @@ comicSite.config(function($stateProvider, $urlRouterProvider){
 	})
 	.state('contact', {
 		url: '/contact',
-		views {
+		views: {
 			"header": {
 				template: "contact header"
 			},
